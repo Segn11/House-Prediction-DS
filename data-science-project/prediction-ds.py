@@ -5,7 +5,7 @@ from glob import glob
 import pandas as pd
 import seaborn as sns
 from category_encoders import OneHotEncoder
-from IPython.display import VimeoVideo
+
 from ipywidgets import Dropdown, FloatSlider, IntSlider, interact
 from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression, Ridge  # noqa F401
